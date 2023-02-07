@@ -1,11 +1,16 @@
 #include <iostream>
 using namespace std;
-void main()
+int main()
 {
-    int i = 0;
-    i = i + 1;
-    cout << i;
-    /*print i \*/
-    i = i + 1;
-    cout << ++i;
+    // bool a = false;
+    // int b = 0;
+    // int c = 1;
+
+    // cout << (~a);
+    // cout << (~b);
+    // cout << (~c);
+    int a = -1;
+    int b = a >> 1;
+    cout << b;
+    return 0;
 }
