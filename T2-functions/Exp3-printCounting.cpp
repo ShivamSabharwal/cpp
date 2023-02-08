@@ -8,6 +8,7 @@ void printCounting(int n)
         cout << i << endl;
     }
 }
+
 int main()
 {
     // Write C++ code here
